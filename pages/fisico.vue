@@ -1,5 +1,7 @@
 <template>
     <div>
-       <h1>fisico</h1> 
+       <h1>Fisico</h1> 
     </div>
+    <FisicoBuscador></FisicoBuscador>
+    <FisicoTabla></FisicoTabla>
 </template>

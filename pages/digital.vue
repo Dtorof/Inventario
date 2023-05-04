@@ -1,5 +1,7 @@
 <template>
     <div>
-        <h1>digital</h1>
+        <h1>Digital</h1>
     </div>
+    <DigitalBuscador></DigitalBuscador>
+    <DigitalTabla></DigitalTabla>
 </template>

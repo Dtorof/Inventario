@@ -1,5 +1,6 @@
 <template>
     <div>
-        <h1>requerimientos</h1>
+        <h1>Requerimientos</h1>
     </div>
+    <RequerimientosFormulario></RequerimientosFormulario>
 </template>
