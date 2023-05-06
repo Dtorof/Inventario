@@ -25,7 +25,10 @@ export default defineNuxtConfig({
                         integrity: 'sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN',
                         crossorigin: 'anonymous'
                     },
-        
+                    {
+                        src: 'https://kit.fontawesome.com/96549dedfc.js',
+                        crossorigin: 'anonymous'
+                    },
                 ],    
   
         }
@@ -50,6 +53,7 @@ export default defineNuxtConfig({
         
         'nuxt-icon',
         '@pinia/nuxt',
+        '@element-plus/nuxt',
         
     ],
   

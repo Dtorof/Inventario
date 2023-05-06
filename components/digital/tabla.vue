@@ -1,18 +1,72 @@
 <template>
-  <div class="table">
-    <table>
+  <div class="table ">
+    <table class="table table-striped table-hover">
       <tr>
-        <th>No Caja</th>
+        <th>Numero de caja</th>
         <th>Codigo</th>
         <th>Año</th>
         <th>Opciones</th>
       </tr>
       <tr id="resultados">
-        <td>Peter</td>
-        <td>Griffin</td>
-        <td>$100</td>
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
         <td>
-            <i type="button" class="fa-sharp fa-solid fa-file-arrow-down icon me-3"></i>
+            <i title="diego" type="button" class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
+            <i type="button" class="fa-solid fa-share icon"></i>
+        </td>
+      </tr>
+      <tr id="resultados">
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
+        <td>
+            <i type="button" class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
+            <i type="button" class="fa-solid fa-share icon"></i>
+        </td>
+      </tr>
+      <tr id="resultados">
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
+        <td>
+            <i type="button"  class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
+            <i type="button" class="fa-solid fa-share icon"></i>
+        </td>
+      </tr>
+      <tr id="resultados">
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
+        <td>
+            <i type="button" class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
+            <i type="button" class="fa-solid fa-share icon"></i>
+        </td>
+      </tr>
+      <tr id="resultados">
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
+        <td>
+            <i type="button" class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
+            <i type="button" class="fa-solid fa-share icon"></i>
+        </td>
+      </tr>
+      <tr id="resultados">
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
+        <td>
+            <i type="button" class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
+            <i type="button" class="fa-solid fa-share icon"></i>
+        </td>
+      </tr>
+      <tr id="resultados">
+        <td>201</td>
+        <td>5555</td>
+        <td>2015</td>
+        <td>
+            <i type="button" class="fa-sharp fa-solid fa-file-arrow-down icon"></i>
             <i type="button" class="fa-solid fa-share icon"></i>
         </td>
       </tr>
@@ -36,10 +90,11 @@ th,td {
   border-bottom: 1px solid black;
 }
 #resultados:hover {
-  background-color: var(--purple);
+  background-color: gray;
   color: var(--white);
 }
 .icon{
     font-size: 2rem;
+    margin-right: 10%;
 }
 </style>
