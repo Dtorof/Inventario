@@ -27,22 +27,21 @@
             <NuxtLink to="/gestion" 
               class="nav-link active text-center "
               aria-current="page"
-              href="#"
               >Gestión</NuxtLink
             >
           </li>
           <li class="nav-item d-flex men">
-            <NuxtLink to="/digital"  class="nav-link active text-center" aria-current="page" href="#"
+            <NuxtLink to="/digital"  class="nav-link active text-center" aria-current="page" 
               >Archivo digital</NuxtLink
             >
           </li>
           <li class="nav-item d-flex men">
-            <RouterLink to="/fisico" class="nav-link active text-center" aria-current="page" href="#"
+            <RouterLink to="/fisico" class="nav-link active text-center" aria-current="page" 
               >Archivo físico</RouterLink
             >
           </li>
           <li class="nav-item d-flex men">
-            <RouterLink to="/estatus" class="nav-link active text-center" aria-current="page" href="#"
+            <RouterLink to="/estatus" class="nav-link active text-center" aria-current="page" 
               >Mi estatus</RouterLink
             >
           </li>
@@ -50,12 +49,12 @@
             <RouterLink to="/estadisticas"
               class="nav-link active text-center "
               aria-current="page"
-              href="#"
+              
               >Estadísticas</RouterLink
             >
           </li>
           <li class="nav-item d-flex men">
-            <RouterLink to="/requerimientos" class="nav-link active text-center" aria-current="page" href="#"
+            <RouterLink to="/requerimientos" class="nav-link active text-center" aria-current="page" 
               >Requerimientos especiales</RouterLink
             >
           </li>
@@ -71,9 +70,9 @@
         </li>
 
         <li class="nav-item d-flex ms-5 dos">
-          <a class="nav-link active" title="Salir" aria-current="page" href="#"
-            ><i class="fa-solid fa-door-open icon"></i
-          ></a>
+          <RouterLink to="/" class="nav-link active" title="Salir" aria-current="page" href="#">
+      <i class="fa-solid fa-door-open icon"></i>
+    </RouterLink>
         </li>
       </div>
     </div>
@@ -83,7 +82,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
 nav.navbar {
   background-color: var(--tear);
-  color: var(--purple)!important;
+  color: white;
   /* text-shadow: 2px 2px 5px rgb(7, 5, 12); */
   height: 80px;
   /* font-weight: 400; */
@@ -93,7 +92,7 @@ nav.navbar {
   /* color:var(--purple) !important;
    text-shadow: 2px 2px 5px rgb(7, 5, 12); 
   font-size: 1.5rem; */
-
+  color: white;
   display: flex;
   align-items: center;
   height: 100%;

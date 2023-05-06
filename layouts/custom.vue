@@ -4,7 +4,7 @@
 
 <template>
 <header>
-    <h1>yupiii</h1>
+   <HomeNav/>
 </header>
 <main>
     <slot />

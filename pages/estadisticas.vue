@@ -1,5 +1,5 @@
 <template>
-    <div>
-        <h1>estadisticas</h1>
-    </div>
+   <div class="mt-5">
+       <EstadisticaPDF/>
+   </div>
 </template>

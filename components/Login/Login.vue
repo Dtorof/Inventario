@@ -55,7 +55,7 @@ import ModalRegistrarse from './ModalRegistrarse.vue';
 
           <!-- <button class="mt-5 mb-3 button">Iniciar sesión</button> este es el que se va a utilizar -->
 
-          <button class="mt-5 mb-3 button"><NuxtLink to="/home">Iniciar sesión</NuxtLink></button> 
+          <button class="mt-5 mb-3 button"><NuxtLink to="/home" class="none">Iniciar sesión</NuxtLink></button> 
 
           <button type="button" id="btn1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Olvide mi contraseña
@@ -79,7 +79,7 @@ import ModalRegistrarse from './ModalRegistrarse.vue';
   margin: 0 auto;
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   /* background-color: blue; */
 }
 
@@ -145,9 +145,14 @@ margin: 0 auto !important;
   border-radius: 7px;
   background-color: var(--tear);
   color: var(--white);
+  text-decoration: none;
+}
+.none{
+  text-decoration: none;
+  color: white;
 }
 .button:hover{
-  background-color: var(--purple);
+  background-color: gray;
   color: var(--white);
 }
 
@@ -157,6 +162,7 @@ margin: 0 auto !important;
   border-style: none ;
   background-color: var(--white);
   color: var(--tear);
+  margin-right: 7%;
   
 }
 #btn2{
@@ -176,7 +182,7 @@ margin: 0 auto !important;
   padding: 5px;
   border-style: none;
   border-radius: 7px;
-  background-color: var(--purple);
+  background-color: gray;
   color: var(--white);
 }
 .button1:hover{
