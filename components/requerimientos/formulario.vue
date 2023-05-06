@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-4">
+  <div class="container mt-5">
     <h4 class="titulo ">Realizar solicitud</h4>
     <form>
       <div class="form-group">
@@ -61,6 +61,7 @@
     border: 1px solid rgba(97,3,69,0.25);
     border-radius: 5%;
     overflow: hidden;
+  
 
   
 }
